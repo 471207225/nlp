@@ -49,3 +49,16 @@ host = 寒暄 报数 询问 业务相关 结尾
 结尾 = 吗？"""
 
 print(generate_sentence_by_gram(host,'host'))
+
+
+# 我的语法
+my_first_grammar = '''
+'''
+
+def generate_n():
+    generated = []
+    for i in range(10):
+        generated.append(generate_sentence_by_gram(host,'host'))
+    return generated
+
+print(generate_n())
